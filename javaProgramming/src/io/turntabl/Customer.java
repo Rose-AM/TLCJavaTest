@@ -1,4 +1,4 @@
 package io.turntabl;
 
-public class Customer {
+public class Customer extends Person implements Buyer{
 }

@@ -1,0 +1,7 @@
+package io.turntabl;
+
+public class UserNotEntitledException extends Exception{
+    public UserNotEntitledException(String message){
+        super(message);
+    }
+}
